@@ -3,6 +3,6 @@
 /*
 This is a multi-line comment*/
 
-// Statements. Will print out in the js console.
+// Statements. Will print out in the 
 console.log("I love chocolate.");
 console.log("I love ice cream to.");
