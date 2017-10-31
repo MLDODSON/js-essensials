@@ -50,4 +50,49 @@ comics("Spider-Man", "Batman", "The Hulk.");
 comics("Thor", "The Flash", "Wolverine.");
 comics("Black Panther", "Martian Manhunter", "The Silver Surfer.");
 
+// Return Statements
+function easy() {
+	return "Let's boogie!"
+}
 
+console.log(easy());
+
+function multiply(a,b) {
+	var c = a * b;
+	return c;
+}
+
+console.log(multiply(6,4));
+
+function leaving() {
+	return "Gone fishing!";
+}
+
+console.log(leaving());
+
+function addition(d,e) {
+	var d = d + e;
+	return d;
+}
+
+console.log(addition(100, 25));
+
+function division(f,g) {
+	var h = f/g;
+	return h;
+}
+
+console.log(division(40,10));
+
+function subtract(i,j) {
+	var k = i - j;
+	return k;
+}
+
+console.log(subtract(100,25));
+
+function hitMe() {
+	return "It's a home run! Cards win! Cards win!";
+}
+
+console.log(hitMe());
