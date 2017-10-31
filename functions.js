@@ -117,3 +117,19 @@ function start() {
 }
 
 start();
+
+// Global and local variables
+// This is an example of a global var. It can be used outside the function.
+var team = "Blues";
+function spit() {
+	console.log(team);
+}
+
+spit();
+console.log(team);
+
+//Local var. Can only be used inside the function.
+function spit() {
+	var lady = "Glenny";
+	console.log(lady);
+}
