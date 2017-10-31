@@ -96,3 +96,24 @@ function hitMe() {
 }
 
 console.log(hitMe());
+
+// Cslling a function from another one.
+function doFirst() {
+	console.log("Go to the grocery store.");
+}
+
+function doSecond() {
+	console.log("Pay the cable bill.");
+}
+
+function doThird() {
+	console.log("Wash some clothes.");
+}
+
+function start() {
+	doFirst();
+	doSecond();
+	doThird();
+}
+
+start();
