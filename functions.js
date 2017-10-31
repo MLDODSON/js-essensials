@@ -133,3 +133,31 @@ function spit() {
 	var lady = "Glenny";
 	console.log(lady);
 }
+
+// Math operators
+var eggs = 12 + 12;
+console.log(eggs);
+
+var grapes = 36 * 10;
+console.log(grapes);
+
+var peanuts = 12 * 12 - 10;
+console.log(peanuts);
+
+var apples = 15 % 4;
+console.log(apples);
+
+var pizzaslice = 32 / 4;
+console.log(pizzaslice);
+
+// Adding 1 to a variable
+var hotdog = 35;
+hotdog++;
+
+console.log(hotdog);
+
+// Subtracting 1
+var cars = 3;
+cars--;
+
+console.log(cars);
