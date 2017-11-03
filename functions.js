@@ -97,7 +97,7 @@ function hitMe() {
 
 console.log(hitMe());
 
-// Cslling a function from another one.
+// Calling a function from another one.
 function doFirst() {
 	console.log("Go to the grocery store.");
 }
