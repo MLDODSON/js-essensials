@@ -161,3 +161,53 @@ var cars = 3;
 cars--;
 
 console.log(cars);
+
+// Examples of Assignment Operators
+var mike = 49;
+mike += 52;
+mike -= 26;
+mike *= 13;
+mike /= 9;
+
+console.log(mike);
+
+
+// If Statement
+// The if statement gives the program a decision to make. It will only run the code if true.
+var Bo =  38;
+var Glenn = 38;
+
+if(Bo===Glenn) {
+	console.log("My buddies are the same age.");
+}
+
+var Gloria = 30;
+var Janice = 30;
+
+if(Gloria<=Janice) {
+	console.log("These ladies love watching The Game of Thrones.");
+}
+
+var Hulk = 100;
+var Thor =  90;
+
+if(Hulk!==Thor) {
+	console.log("Mean green is a lot stronger than Goldie Locks in tons they can lift.");
+}
+
+// If Else Statement
+
+var Annie = 15;
+var Joe = 12;
+
+if(Annie>=Joe) {
+	console.log("Ann is older than Joey.");
+} else {
+	console.log("Joey is older than Ann.");
+}
+
+if(10>11) {
+	console.log("I am winning.");
+} else {
+	console.log("I need some help.");
+}
