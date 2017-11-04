@@ -132,7 +132,7 @@ function creepy(a) {
 creepy("scare");
 
 function food(a) {
-	console.log("I want " + a + " fries with that shake!");
+	console.log("I want " + a + " with that shake!");
 }
 
 food("fries");
