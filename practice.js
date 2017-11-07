@@ -168,3 +168,31 @@ if(herFirst==="Patty") {
 		console.log("Patty Garcia is not my wife.");
 	}
 }
+
+// Complex statements
+
+// Using the && (and)
+var one = "Sally";
+var two = "Gomez";
+
+if( (one==="Sally") && (two==="Gomez")) {
+   console.log("Sally Gomez makes the best barbequed chicken!");
+   }
+
+
+var hot = "Betty";
+var cold = "Carol";
+
+if( (hot==="Betty") && (cold==="Kim")) {
+   console.log("I'm having lunch with Betty.");
+   } else {
+	   console.log("I'm having dinner with Carol.");
+   }
+
+// Using the || (or). Only 1 if must match.
+var plus = "fries";
+var minus = "beans";
+
+if( (plus==="fries") || (minus==="corn")) {
+   console.log("I'll have fries with my burger.");
+   }
