@@ -71,8 +71,8 @@ function leaving() {
 console.log(leaving());
 
 function addition(d,e) {
-	var d = d + e;
-	return d;
+	var f = d + e;
+	return f;
 }
 
 console.log(addition(100, 25));

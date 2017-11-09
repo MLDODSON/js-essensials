@@ -101,9 +101,50 @@ for (var m = 1; m <=10; m++) {
 	console.log(m);
 }
 
+var people = ["Dan", "Tony", "Barbara", "Larry", "Cid"];
+
+for (var y = 0; y < 5; y++) {
+	console.log(people[y]);
+}
+
+for (var n = 0; n < people.length; n++) {
+	console.log(people[n]);
+}
+
+for (var q = people.length -1; q > 0; q--) {
+	console.log(people[q]);
+}
 
 
 
+var car = ["volvo", "ford", "toyota", "buick"];
+
+for (var x = 0; x < 4; x++) {
+	console.log(car[x]);
+}
+
+for (var o = 0; o < car.length; o++) {
+	console.log(car[o]);
+}
+
+for (var p = car.length -1; p > 0; p--) {
+	console.log(car[p]);
+}
+
+
+var veggie = ["spinach", "tomatoe", "potatoe", "corn", "carrot", "rice"];
+
+for (var i = 0; i < 6; i++) {
+	console.log(veggie[i]);
+}
+
+for (var j = 0; j < veggie.length; j++) {
+	console.log(veggie[j]);
+}
+
+for (var s = veggie.length - 1; s > 0; s--) {
+	console.log(veggie[s]);
+}
 
 
 
