@@ -61,3 +61,30 @@ uncles.pop();
 console.log(uncles[4]);
 uncles.pop();
 
+
+//reverse
+
+var cars = new Array("Honda", "Volvo", "Dodge", "Ford", "Buick");
+
+cars.reverse();
+
+console.log(cars[0]);
+
+
+//push adds an element to the end of your array
+
+var iceCream = new Array("cherry", "vanilla", "strawberry", "rocky road", "butter pecan");
+
+iceCream.push("banana", "orange sherbert");
+
+console.log(iceCream[6]);
+
+
+//sort places your elements in alphabetical order
+
+var animals = new Array("horse", "lion", "zebra", "tiger", "giraffe", "elephant"); 
+animals.sort();
+var string3 = animals.join(" • ");
+console.log(string3);
+
+
