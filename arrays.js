@@ -102,3 +102,13 @@ for(i=0;i<3;i++) {
 console.log(junk[0] + junk[1] + junk[2]);
 
 
+//Cool Technique to Print Array Elements
+
+var warriors = new Array("Curry", "Durant", "Green", "Thompson", "McGee");
+warriors.sort();
+
+for(a=0;a<warriors.length;a++) {
+	console.log(warriors[a] + "\n");
+}
+
+
