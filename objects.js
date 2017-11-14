@@ -36,3 +36,8 @@ mike = {name:"Michael Hunter", age:39};
 kim = {name:"Kim Taylor", age:25};
 
 console.log(mike.name + " is " + mike.age + " and " + kim.name + " is " + kim.age + ".");
+
+ben = {weight:280, career:"web developer"};
+joy = {weight:125, career:"nurse"};
+
+console.log("Ben weights " + ben.weight + " and is a " + ben.career + ".");
