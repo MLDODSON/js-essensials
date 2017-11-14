@@ -87,4 +87,18 @@ animals.sort();
 var string3 = animals.join(" • ");
 console.log(string3);
 
+//Add Array Elements Using a Loop
+
+var fruit = prompt("Enter your name:", "");
+console.log("What's up " + fruit + "?");
+
+
+var junk = new Array(3);
+
+for(i=0;i<3;i++) {
+	junk[i] = prompt("Enter something please:", "");
+}
+
+console.log(junk[0] + junk[1] + junk[2]);
+
 
