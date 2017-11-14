@@ -41,3 +41,18 @@ ben = {weight:280, career:"web developer"};
 joy = {weight:125, career:"nurse"};
 
 console.log("Ben weights " + ben.weight + " and is a " + ben.career + ".");
+
+//Adding methods to objects
+function man(name, age) {
+	this.name = name;
+	this.age = age;
+	this.yearsToRetire = yearsLeft;
+}
+
+function yearsLeft () {
+	var numYears = 65 - this.age;
+	return numYears;
+}
+
+var chuckie = new man ("Chuckie Booker", 24);
+console.log(chuckie.yearsToRetire());
