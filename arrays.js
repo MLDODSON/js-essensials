@@ -112,3 +112,11 @@ for(a=0;a<warriors.length;a++) {
 }
 
 
+//Associative Arrays
+
+var mike = new Array();
+mike["weight"] = 235;
+mike["food"] = "steak";
+
+console.log("Mike weights " + mike["weight"] + " pounds.");
+console.log("Mike loves " + mike["food"] + ".");
