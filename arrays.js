@@ -120,3 +120,13 @@ mike["food"] = "steak";
 
 console.log("Mike weights " + mike["weight"] + " pounds.");
 console.log("Mike loves " + mike["food"] + ".");
+
+
+//We can also write an array like this:
+
+var city = ["St. Louis", "New York", "Paris", "Atlanta", "Miami"];
+console.log(city[2]);
+//Will print out Paris
+
+var shopList = ["milk", "bread", "chicken", "peanut butter", "cereal", "bacon"];
+console.log(shopList[4]);
