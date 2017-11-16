@@ -56,3 +56,29 @@ function yearsLeft () {
 
 var chuckie = new man ("Chuckie Booker", 24);
 console.log(chuckie.yearsToRetire());
+
+//A different way to write an object
+
+var car = {
+	make: "charger",
+	speed: 160,
+	engine: {
+		size: 6.1,
+		make: "Hemi ESF",
+		fuel: "gas"
+}
+};
+
+var may = {
+	age: 66,
+	occupation: "Minister",
+	hobby: "cooking",
+	children: {
+		one: "Vincent",
+		two: "Arthur",
+		three: "Jerry",
+		four: "Cassetta",
+		five: "Rosetta",
+		six: "David"
+	}
+};

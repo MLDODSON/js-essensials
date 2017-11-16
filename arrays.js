@@ -130,3 +130,6 @@ console.log(city[2]);
 
 var shopList = ["milk", "bread", "chicken", "peanut butter", "cereal", "bacon"];
 console.log(shopList[4]);
+
+
+
