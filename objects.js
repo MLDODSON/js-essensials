@@ -82,3 +82,45 @@ var may = {
 		six: "David"
 	}
 };
+
+//Acessing members inside of an object
+
+var car = {
+	make: "charger",
+	speed: 160,
+	engine: {
+		size: 6.1,
+		make: "Hemi ESF",
+		fuel: "gas"
+}
+};
+
+console.log(car.speed);
+
+//To access a member all we needed was car. and then the name of 1 of the members
+
+var car = {
+	make: "charger",
+	speed: 160,
+	engine: {
+		size: 6.1,
+		make: "Hemi ESF",
+		fuel: "gas"
+}
+};
+
+console.log(car.engine);
+
+//To access a member of a member
+
+var car = {
+	make: "charger",
+	speed: 160,
+	engine: {
+		size: 6.1,
+		make: "Hemi ESF",
+		fuel: "gas"
+}
+};
+
+console.log(car.engine.size);
