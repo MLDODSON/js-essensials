@@ -1,5 +1,6 @@
 // Objects have their own properties and methods.
 
+/*
 //This uses a property
 var leon = "Leon is the man!";
 console.log(leon.length);
@@ -124,3 +125,94 @@ var car = {
 };
 
 console.log(car.engine.size);
+*/
+//More member access practice
+
+var car = {
+	make: "volvo",
+	speed: 160,
+	engine: {
+		size: 2.0,
+		make: "bmw",
+		fuel: "gas",
+		pistons:[
+			{maker: "BMW"},
+			{maker: "BMW2"}
+		]
+	},
+	drive: function() {return "drive";}
+};
+
+var array = [
+	"string",
+	100,
+	["embed", 200],
+	{car: "ford"},
+	function() {return "drive";}
+];
+
+console.log(car.make);
+console.log(car.speed);
+
+car.engine.pistons[0];
+console.log(car.engine.pistons[1]);
+console.log(array[3]);
+
+//Member Creation, Assignment & Deletion
+car.make = "ford";
+car.make += 2018;
+
+car.speed["speed"] *= 2;
+car.engine = {newengine: "new"};
+car.drive = "drive";
+car.model = "v60";
+car.color = "jet black";
+car.doors = 4;
+car.go = function() {return "go";};
+
+//things can also be deleted
+
+delete car.go;
+
+//Quick test. Add a name to the front and end of an array.
+var siblings = ["kevin", "Angie", "Marie"];
+console.log(siblings[1]);
+
+siblings.unshift("Jethro");
+siblings.push("Betty");
+
+//Quick test. Return statement.
+function moreMath (y,z) {
+	var number = y + z;
+	return number;
+}
+console.log(moreMath(39,17));
+
+//Quick test. if else.
+
+var angie = 41;
+var marie = 40;
+var kevin = 44;
+
+if(angie >= marie && angie >= kevin) {
+	console.log("We will eat dinner at Angie's house");
+} else if(marie <= angie && marie >= kevin) {
+	console.log("We will party at Marie's house");
+} else {
+	console.log("We will all have barbeque at Kevin's apartment");
+}
+
+if(marie >= angie || marie <= kevin) {
+	console.log("We watch movies at Marie's house");
+} else {
+	console.log("We will all go out to see a movie");
+}
+
+//Quick test. Do an alert.
+var marie = "chocolate pudding";
+alert("I want " + marie + " for dessert.");
+
+//Quick test. Do a prompt.
+
+var person = prompt("Please enter your full name");
+console.log(person);
