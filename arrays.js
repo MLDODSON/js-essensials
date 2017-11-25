@@ -1,5 +1,5 @@
 // Arrays
-
+/*
 var people = new Array("Pete", "Susie", "Pam", "Othelo", "Winston");
 
 console.log(people[1]);
@@ -130,6 +130,43 @@ console.log(city[2]);
 
 var shopList = ["milk", "bread", "chicken", "peanut butter", "cereal", "bacon"];
 console.log(shopList[4]);
+*/
 
+//More Array Modification
 
+var car = {
+	make: "volvo",
+	speed: 160,
+	engine: {
+		size: 2.0,
+		make: "bmw",
+		fuel: "gas",
+		pistons:[
+			{maker: "BMW"},
+			{maker: "BMW2"}
+		]
+	},
+	drive: function() {return "drive";}
+};
+
+var array = [
+	"string",
+	100,
+	["embed", 200],
+	{car: "ford"},
+	function() {return "drive";}
+];
+
+array[0];
+"string"
+array[0] += " concat";
+"string concat"
+
+array[5] = "new string";
+
+array.shift();//Takes the 1st element off.
+array.pop();//Takes the element off the end.
+array.unshift("bread", "cheese", "cookies");//Will add to the start of an array.
+array.push("Curly", "Moe", "Moe, Larry, the cheese, the cheese!");//Will add to the end of the array.
+array.splice(6, 0, "I'm a Pepper. Wouldn't you like to be a pepper to?");//This adds an element in a certain position within a array and allows you to also delete something.
 
