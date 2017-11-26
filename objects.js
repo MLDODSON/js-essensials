@@ -258,6 +258,15 @@ function thing(fullname)
 console.log(thing(function(){return "Kit Kat Bar";}));
 
 
+function runExpression() 
+{
+	var x = 20;
+	function add()
+	{
+	return x + 80;
+	}
+	return add();	
+}
 
 
 
