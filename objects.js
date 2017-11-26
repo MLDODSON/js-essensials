@@ -216,3 +216,70 @@ alert("I want " + marie + " for dessert.");
 
 var person = prompt("Please enter your full name");
 console.log(person);
+
+//Callable Objects
+
+function guy() 
+{
+	var fullName = "Bobby Jackson";
+	function concat (guy) {
+		return "Mr. " + guy;
+	}
+	return concat(fullName);
+}
+console.log(guy());
+
+
+
+function name() 
+{
+	var fullName = "Chuck Taylor";
+	return fullName;
+}
+console.log(name());
+
+//Another way 
+function man(fullname) 
+{
+	return fullname.firstname + fullname.lastname;
+}
+console.log(man({firstname:"Michael ", lastname:"Dodson"}));
+
+function lady(fullname) 
+{
+	return fullname.firstname + fullname.middlename + fullname.lastname;
+}
+console.log(lady({firstname:"Mary ", middlename:"Ann ", lastname:"Jackson"}));
+
+function thing(fullname) 
+{
+	return fullname();
+}
+console.log(thing(function(){return "Kit Kat Bar";}));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
