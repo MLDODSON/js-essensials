@@ -268,6 +268,19 @@ function runExpression()
 	return add();	
 }
 
+//Constructors
+
+function Grape(a,b,color,score) {
+	this.a = a;
+	this.b = b;
+	this.color = color;
+	this.score = score;
+}
+//Each grape has its own set of values
+var grape1 = new Grape(5,15,"blue",200);
+var grape2 = new Grape(15,26,"orange",300);
+var grape3 = new Grape(12,75,"green",58);
+
 
 
 
