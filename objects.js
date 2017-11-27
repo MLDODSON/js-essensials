@@ -275,11 +275,71 @@ function Grape(a,b,color,score) {
 	this.b = b;
 	this.color = color;
 	this.score = score;
+	
 }
 //Each grape has its own set of values
 var grape1 = new Grape(5,15,"blue",200);
 var grape2 = new Grape(15,26,"orange",300);
 var grape3 = new Grape(12,75,"green",58);
+
+
+//Constructors with Prototype
+function Orange(color,weight) {
+	this.color = color;
+	this.score = score;
+	
+	Orange.prototype = {
+		throw : function(){return this;},
+		eat : function(){return "eat the orange";},
+		share : function(){return "share the orange";}
+	};
+
+var orange1 = new Orange("blue",200);
+var orange2 = new Orange("orange",300);
+var orange3 = new Orange("green",275);
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
