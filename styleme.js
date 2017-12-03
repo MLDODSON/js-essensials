@@ -8,6 +8,7 @@ el.style.width = "200px";
 el.style.margin = "10px";
 el.style.textAlign = "center";*/
 
+//This is the better way to style.
 el.style.cssText = "background:purple; color:white; width:200px; margin:20px; text-align:center; border:4px solid green; padding:10px";
 
 el.style.cssText += " height:100px; ";
