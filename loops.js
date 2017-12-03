@@ -146,6 +146,11 @@ for (var s = veggie.length - 1; s > 0; s--) {
 	console.log(veggie[s]);
 }
 
+var person = ["Chet", "Freddie", "Bruno", "Jackie", "Steve"];
+
+for (var b = 0; b < person.length; b++) {
+	console.log(person[b]);
+}
 
 
 
